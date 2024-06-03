@@ -6,11 +6,11 @@
 
 ### GOV: LLM AI Security & Governance Checklist v1.1
 
-|Project|Language|Members|Loc Repo URL|Start Date|Release Date  |
-|-------|--------|-------|------------|----------|--------------|
-|GOV    |de-DE   |       |     -      |    -     |              |
-|GOV    |ja-JP   |       |     -      |    -     |2024-04-10    |
-
+|Project|Language|Members         |Loc Repo URL                          |Start Date|Release Date  |
+|-------|--------|----------------|--------------------------------------|----------|--------------|
+|GOV    |de-DE   |                |                 -                    |    -     |              |
+|GOV    |it-IT   |Riccardo Sirigu |https://github.com/ricsirigu/secgov   |2024-05-25|       -      |
+|GOV    |ja-JP   |                |                 -                    |    -     |2024-04-10    |
 
 ### LLM: OWASP Top 10 for LLM Applications v1.1
 
