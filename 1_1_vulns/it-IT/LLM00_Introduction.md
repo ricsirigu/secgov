@@ -14,7 +14,7 @@ La creazione dell’OWASP Top 10 per le applicazioni LLM ha richiesto un impegno
 
 Nel corso di un mese, abbiamo discusso e proposto potenziali vulnerabilità e i membri del gruppo hanno considerato fino a 43 minacce distinte. Attraverso molteplici round di selezione, abbiamo ridotto queste proposte fino ad arrivare a una lista concisa delle 10 vulnerabilità più critiche.
 
-Ognuna di queste vulnerabilità, congiuntamente agli esempi, ai suggerimenti relativi alla prevenzione, agli scenari di attacco e ai riferimenti, è stata ulteriormente esaminata e rifinita da sotto-gruppi specializzati e sottoposta a una revisione pubblica, per assicurare che la lista finale fosse il più possibile completa e concretamente applicabile.
+Ognuna di queste vulnerabilità, congiuntamente agli esempi, ai suggerimenti relativi alla prevenzione, agli scenari di attacco e ai riferimenti, è stata ulteriormente esaminata e rifinita da sottogruppi specializzati e sottoposta a una revisione pubblica, per assicurare che la lista finale fosse il più possibile completa e concretamente applicabile.
 
 ### Relazione con le altre liste OWASP Top 10
 
@@ -22,7 +22,7 @@ Anche se la nostra lista condivide il DNA con i tipi di vulnerabilità che si po
 
 Il nostro obiettivo è di colmare la distanza tra i principi generali di sicurezza delle applicazioni e le sfide specifiche poste dagli LLM. Questo include l’esplorazione di come le vulnerabilità tradizionali possano porre rischi differenti o possano essere sfruttate in nuovi modi con gli LLM, e come i rimedi tradizionali debbano essere adattati alle applicazioni basate sugli LLM.
 
-### Riguardo versione 1.1
+### Riguardo alla versione 1.1
 
 Anche se la nostra lista condivide il DNA con i tipi di vulnerabilità che si possono trovare nelle altre liste OWASP Top 10, non ci limitiamo a reiterarle, ma analizziamo le implicazioni uniche che queste vulnerabilità hanno quando appaiono in applicazioni basate sugli LLM.
 
@@ -40,7 +40,7 @@ Twitter/X: @virtualsteve
 
 
 #### Ads Dawson
-Responsabile della release 1.1 e responsabile voci di vulerabilità per il progetto OWASP Top 10 per le applicazioni LLM
+Responsabile della release 1.1 e responsabile voci di vulnerabilità per il progetto OWASP Top 10 per le applicazioni LLM
 [https://www.linkedin.com/in/adamdawson0](https://www.linkedin.com/in/adamdawson0/) 
 GitHub: @GangGreenTemperTatum
 
@@ -69,10 +69,10 @@ Responsabile traduzioni, OWASP Top 10 per le applicazioni LLM
 Input artificiosi possono manipolare un modello linguistico di grandi dimensioni, causando azioni non volute. Le iniezioni dirette sovrascrivono i prompt di sistema, mentre quelle indirette manipolano gli input provenienti da fonti esterne.
 
 ### LLM02: Gestione Non Sicura dell'Output
-Questa vulnerabilità accade quando l'output del LLM è accettato senza previa verifica, esponendo i sistemi backend. L'abuso può portare a conseguenze gravi come XSS, CSRF, SSRF, escalation dei privilegi o esecuzione di codice remoto.
+Questa vulnerabilità si manifesta quando l'output del LLM è accettato senza previa verifica, esponendo i sistemi backend. L'abuso può portare a conseguenze gravi come XSS, CSRF, SSRF, escalation dei privilegi o esecuzione di codice remoto.
 
 ### LLM03: Avvelenamento dei Dati di Apprendimento
-Questo si verifica quando i dati di apprendimento del LLM vengono manomessi, introducendo vulnerabilità o bias che ne compromettono la sicurezza, l'efficacia o il comportamento etico. Le fonti di dati includono Common Crawl, WebText, OpenWebText e libri.
+Questo si verifica quando i dati di apprendimento del LLM vengono alterati, introducendo vulnerabilità o bias che ne compromettono la sicurezza, l'efficacia o il comportamento etico. Le fonti di dati includono Common Crawl, WebText, OpenWebText e libri.
 
 ### LLM04: Denial of Service del Modello
 Degli attaccanti causano operazioni che richiedono risorse elevate sui modelli linguistici di grandi dimensioni, portando a degrado del servizio o a costi elevati. La vulnerabilità è amplificata dalla natura intensiva delle risorse degli LLM e dall'imprevedibilità degli input dell'utente.
@@ -80,7 +80,7 @@ Degli attaccanti causano operazioni che richiedono risorse elevate sui modelli l
 ### LLM05: Vulnerabilità della Supply-Chain
 Il ciclo di vita dell'applicazione LLM può essere compromesso da componenti o servizi vulnerabili, portando ad attacchi di sicurezza. L'utilizzo di dataset, modelli pre-addestrati e plugin di terze parti può aggiungere altre vulnerabilità.
 
-### LLM06: Diffusione di Informazioni Sensibili
+### LLM06: Divulgazione di Informazioni Sensibili
 Gli LLM possono rivelare dati confidenziali nelle risposte, portando ad accessi non autorizzati, violazioni della privacy e falle di sicurezza. Per mitigare questo rischio, è cruciale implementare un processo di sanitizzazione dei dati e politiche utente rigorose.
 
 ### LLM07: Progettazione Insicura dei Plugin
@@ -90,7 +90,7 @@ I plugin LLM possono avere input non sicuri e controlli di accesso insufficienti
 I sistemi basati sugli LLM possono intraprendere azioni che conducono a conseguenze non volute. Il problema nasce da funzionalità, permessi o autonomia eccessivi concessi a questi sistemi.
 
 ### LLM09: Eccessivo Affidamento
-Senza supervisione, sistemi o persone eccessivamente dipendenti dagli LLM possono incorrere in disinformazione, malfunzionamenti, problemi legali e vulnerabilità di sicurezza dovute a contenuti errati o inappropriati generati dagli LLM.
+Senza supervisione, sistemi o persone che fanno eccessivo affidamento sugli LLM possono incorrere in disinformazione, malfunzionamenti, problemi legali e vulnerabilità di sicurezza dovute a contenuti errati o inappropriati generati dagli LLM.
 
 ### LLM10: Furto del Modello
 Questa vulnerabilità consiste nell'accesso non autorizzato, la copia o l'esfiltrazione di modelli LLM proprietari. L'impatto include perdite economiche, compromissione del vantaggio competitivo e potenziale accesso a informazioni sensibili.
